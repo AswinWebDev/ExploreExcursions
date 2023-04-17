@@ -18,14 +18,6 @@ const MountainPage = ({ isOpened, setIsOpened, json, setPageNo, pageNo }) => {
         <span className="heading-primary-main">{json[1].title}</span>
         <span className="heading-primary-sub">{json[1].description}</span>
       </div>
-      <LeftSideMenu />
-      {!isOpened ? <Menu setIsOpened={setIsOpened} /> : null}
-
-      <RightSideBar setIsOpened={setIsOpened} isOpened={isOpened} />
-
-      <ScrollDown />
-      <PageNums setPageNo={setPageNo} pageNo={pageNo} />
-      <Explore pageNo={pageNo} />
     </div>
   );
 };
