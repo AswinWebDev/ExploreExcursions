@@ -12,7 +12,7 @@ const WaterPage = ({ isOpened, setIsOpened, json, setPageNo, pageNo }) => {
     <div>
       <header
         className="header"
-        style={{ backgroundImage: `url("../../src/assets/beach.jpg")` }}
+        style={{ backgroundImage: `url(${json[0].image})` }}
       ></header>
       <div className="heading-primary">
         <span className="heading-primary-main">{json[0].title}</span>

@@ -12,7 +12,7 @@ const MountainPage = ({ isOpened, setIsOpened, json, setPageNo, pageNo }) => {
     <div>
       <header
         className="header"
-        style={{ backgroundImage: `url("../../src/assets/mountain.jpg")` }}
+        style={{ backgroundImage: `url(${json[1].image})` }}
       ></header>
       <div className="heading-primary">
         <span className="heading-primary-main">{json[1].title}</span>
