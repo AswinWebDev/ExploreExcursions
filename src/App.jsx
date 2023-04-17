@@ -21,26 +21,14 @@ const App = () => {
           pageNo === 1 ? "water-page-wrapper show" : "water-page-wrapper"
         }
       >
-        <WaterPage
-          isOpened={isOpened}
-          setIsOpened={setIsOpened}
-          json={json}
-          setPageNo={setPageNo}
-          pageNo={pageNo}
-        />
+        <WaterPage json={json} />
       </div>
       <div
         className={
           pageNo === 2 ? "mountain-page-wrapper show" : "mountain-page-wrapper"
         }
       >
-        <MountainPage
-          isOpened={isOpened}
-          setIsOpened={setIsOpened}
-          json={json}
-          setPageNo={setPageNo}
-          pageNo={pageNo}
-        />
+        <MountainPage json={json} />
       </div>
       <LeftSideMenu />
       {!isOpened ? <Menu setIsOpened={setIsOpened} /> : null}
@@ -50,6 +38,7 @@ const App = () => {
       <ScrollDown />
       <PageNums setPageNo={setPageNo} pageNo={pageNo} />
       <Explore pageNo={pageNo} />
+      {/* about section */}
     </div>
   );
 };

@@ -7,7 +7,7 @@ import PageNums from "../components/PageNums";
 import Explore from "../components/Explore";
 import "../../src/App.css";
 
-const WaterPage = ({ isOpened, setIsOpened, json, setPageNo, pageNo }) => {
+const WaterPage = ({ json }) => {
   return (
     <div>
       <header

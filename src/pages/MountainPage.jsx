@@ -7,7 +7,7 @@ import PageNums from "../components/PageNums";
 import Explore from "../components/Explore";
 import "../../src/App.css";
 
-const MountainPage = ({ isOpened, setIsOpened, json, setPageNo, pageNo }) => {
+const MountainPage = ({ json }) => {
   return (
     <div>
       <header
