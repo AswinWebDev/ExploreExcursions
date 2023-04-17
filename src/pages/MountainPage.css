@@ -1,0 +1,27 @@
+.mountain-page-wrapper {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 100%;
+  transition: right 0.5s ease-in-out;
+  /* overflow: hidden; */
+}
+
+.mountain-page-wrapper.show {
+  right: 0;
+}
+
+/* .water-page-wrapper {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 100%;
+  transition: right 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.water-page-wrapper.show {
+  right: 0;
+} */

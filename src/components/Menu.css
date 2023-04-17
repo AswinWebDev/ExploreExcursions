@@ -1,0 +1,15 @@
+.hamburger {
+  position: absolute;
+  /* color: aqua; */
+  /* display: block; */
+  top: 3%;
+  left: 95%;
+  /* transform: translate(-50%, -50%); */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: aliceblue;
+  /* opacity: 50%; */
+  color: #a6a6a6;
+}
